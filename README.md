@@ -138,13 +138,32 @@ Key test scenarios covered:
 
 ## 📝 License
 
-This project is for educational purposes only. LiveHindustan is a trademark of Hindustan Media Ventures Limited.
+This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
+
+### Disclaimer
+
+This is an **educational/assessment project** created to demonstrate web development skills using Next.js and modern frontend technologies. 
+
+- This project is **not affiliated with** LiveHindustan or Hindustan Media Ventures Limited
+- All news content is **mock/fictional data** for demonstration purposes only
+- The LiveHindustan name and branding are trademarks of their respective owners
+- No commercial use is intended or permitted without proper authorization
 
 ---
 
-## 🤝 Contributing
+## 👨‍💻 Author
 
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+**Abhishek Verma**
+- GitHub: [@vemkaze](https://github.com/vemkaze)
+
+---
+
+## 🙏 Acknowledgments
+
+- [LiveHindustan](https://www.livehindustan.com/) for design inspiration
+- [Next.js](https://nextjs.org/) for the amazing React framework
+- [Tailwind CSS](https://tailwindcss.com/) for utility-first styling
+- [Unsplash](https://unsplash.com/) for placeholder images
 
 ---
 
