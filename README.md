@@ -2,6 +2,10 @@
 
 A responsive, high-performance Hindi news portal built with Next.js 15 & Tailwind CSS. This project is a simplified clone of the [LiveHindustan](https://www.livehindustan.com/) website, demonstrating modern web development practices.
 
+### 🌐 [Live Demo](https://superlative-rugelach-c0e618.netlify.app/) | [GitHub Repo](https://github.com/vemkaze/AST-consulting-assessment)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/superlative-rugelach-c0e618/deploy-status)](https://superlative-rugelach-c0e618.netlify.app/)
+
 ![LiveHindustan Clone - Desktop View](./wireframe%201.png)
 
 ![LiveHindustan Clone - Mobile View](./wireframe%202.png)
