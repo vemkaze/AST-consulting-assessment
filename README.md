@@ -82,6 +82,19 @@ npm run build
 npm start
 ```
 
+### Running Tests
+
+```bash
+# Run all tests
+npm test
+
+# Watch mode for development
+npm run test:watch
+
+# With coverage report
+npm run test:coverage
+```
+
 ---
 
 ## 📁 Project Structure
@@ -91,6 +104,7 @@ src/
 ├── app/                    # Next.js App Router pages
 │   ├── article/[slug]/     # Dynamic article pages
 │   ├── category/[slug]/    # Dynamic category pages
+│   ├── search/             # Search results page
 │   ├── layout.tsx          # Root layout with Header/Footer
 │   ├── page.tsx            # Home page
 │   ├── loading.tsx         # Loading skeleton
@@ -107,8 +121,13 @@ src/
 │   └── mockData.ts         # Mock articles and categories
 ├── lib/
 │   └── utils.ts            # Utility functions
-└── types/
-    └── article.ts          # TypeScript interfaces
+├── types/
+│   └── article.ts          # TypeScript interfaces
+└── __tests__/              # Unit tests
+    ├── utils.test.ts
+    ├── mockData.test.ts
+    └── components/
+        └── NewsCard.test.tsx
 ```
 
 ---
@@ -117,12 +136,27 @@ src/
 
 For detailed information about edge case testing and how the application handles various scenarios, please refer to **[DOCUMENTATION.md](./DOCUMENTATION.md)**.
 
-Key test scenarios covered:
+### Unit Tests (25 tests)
+- ✅ Utility functions (formatDate, truncateText, generateSlug)
+- ✅ Mock data integrity (articles, categories, helper functions)
+- ✅ Component rendering (NewsCard with various props)
+
+### Edge Cases Covered
 - ✅ Articles without images
 - ✅ Extremely long titles
 - ✅ Empty data responses
 - ✅ API failure fallbacks
 - ✅ 404 handling for invalid routes
+
+---
+
+## 🔍 Working Search
+
+The application includes a fully functional search feature:
+- Real-time search across article titles, content, and categories
+- Accessible via the search icon in the header
+- Dedicated `/search` page with search results
+- Hindi language support for search queries
 
 ---
 
