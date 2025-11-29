@@ -14,36 +14,7 @@ This document covers the specific assignment deliverables for the LiveHindustan 
 **Mobile/Detail View:**
 ![Wireframe Mobile](./wireframe%202.png)
 
-The layout was designed to mirror a standard news portal density with a **4-column grid** that collapses responsively for mobile devices. The wireframe follows the visual hierarchy typical of Hindi news websites:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    TOP BAR (Date, Links)                     │
-├─────────────────────────────────────────────────────────────┤
-│                    HEADER (Logo, Search)                     │
-├─────────────────────────────────────────────────────────────┤
-│                    NAVIGATION (Categories)                   │
-├─────────────────────────────────────────────────────────────┤
-│                    BREAKING NEWS TICKER                      │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  ┌─────────────────────────────────┐  ┌─────────────────┐   │
-│  │                                 │  │   Side Article  │   │
-│  │      MAIN FEATURED ARTICLE      │  ├─────────────────┤   │
-│  │           (2/3 width)           │  │   Side Article  │   │
-│  │                                 │  │   (1/3 width)   │   │
-│  └─────────────────────────────────┘  └─────────────────┘   │
-│                                                              │
-├────────────────────────────────────────┬────────────────────┤
-│       NEWS GRID (3/4 width)            │   SIDEBAR (1/4)    │
-│  ┌────────┐ ┌────────┐ ┌────────┐      │  ┌──────────────┐  │
-│  │ Card 1 │ │ Card 2 │ │ Card 3 │      │  │  Trending    │  │
-│  └────────┘ └────────┘ └────────┘      │  │    News      │  │
-│                                        │  └──────────────┘  │
-├────────────────────────────────────────┴────────────────────┤
-│                         FOOTER                               │
-└─────────────────────────────────────────────────────────────┘
-```
+The layout was designed to mirror a standard news portal density with a **4-column grid** that collapses responsively for mobile devices.
 
 **Layout Decisions:**
 - **Hero Section (2:1 ratio)**: Main featured article takes 2/3 width for visual impact, with two side articles in 1/3 for additional featured content
