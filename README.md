@@ -6,7 +6,7 @@ A responsive, high-performance Hindi news portal built with Next.js 15 & Tailwin
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/superlative-rugelach-c0e618/deploy-status)](https://superlative-rugelach-c0e618.netlify.app/)
 
-![LiveHindustan Clone - Screenshot](./Screenshot%202025-11-29%20142415.png)
+![LiveHindustan Clone - Screenshot](./preview.png)
 
 ---
 
